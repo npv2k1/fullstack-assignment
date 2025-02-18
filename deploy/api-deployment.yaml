@@ -66,3 +66,5 @@ data:
   PORT: "4000"
   # Prisma database connection
   DATABASE_URL: "postgresql://postgres:NpV2k1postgres@100.86.32.133:5434/postgres?schema:public&sslmode:prefer"
+  GOOGLE_CLIENT_ID: "964614531255-38qq0bq06nmgo2g6h5so2egfua0tbfa8.apps.googleusercontent.com"
+  GOOGLE_CLIENT_SECRET: "dev"
