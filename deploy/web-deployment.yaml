@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: ghcr.io/npv2k1/fullstack-assignment-frontend:sha-a0fe833
+          image: ghcr.io/npv2k1/fullstack-assignment-frontend:sha-ae9077a
           ports:
             - containerPort: 3000
 ---
