@@ -72,7 +72,7 @@ importers:
         specifier: ^1.3.4
         version: 1.3.5
       bcrypt:
-        specifier: ^5.0.1
+        specifier: ^5.1.1
         version: 5.1.1
       bull:
         specifier: ^4.10.2
