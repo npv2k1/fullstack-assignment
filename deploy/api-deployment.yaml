@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: ghcr.io/npv2k1/fullstack-assignment-backend:sha-e3e98c1
+          image: ghcr.io/npv2k1/fullstack-assignment-backend:sha-1ca1f5a
           ports:
             - containerPort: 4000
           envFrom:
