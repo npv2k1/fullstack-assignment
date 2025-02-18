@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "@/assets/logo.svg";
-import Menu from "@/assets/Menu.svg";
+import Menu from "@/assets/menu.svg";
 import FolderIcon from "@/assets/folder-icon.svg";
 const Sidebar = () => {
   return (
