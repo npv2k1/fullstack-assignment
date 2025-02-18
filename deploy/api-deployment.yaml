@@ -63,6 +63,6 @@ kind: ConfigMap
 metadata:
   name: api-env-config
 data:
-  PORT: 4000
+  PORT: "4000"
   # Prisma database connection
   DATABASE_URL: "postgresql://postgres:NpV2k1postgres@100.86.32.133:5434/postgres?schema:public&sslmode:prefer"
