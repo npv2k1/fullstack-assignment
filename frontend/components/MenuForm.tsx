@@ -30,13 +30,14 @@ export function MenuForm() {
         <SelectValue placeholder="Theme" />
       </SelectTrigger>
       <SelectContent>
-        {menu?.map((item) => {
-          return (
-            <SelectItem key={item.id} value={item.id}>
-              {item.name}
-            </SelectItem>
-          );
-        })}
+        {menu &&
+          menu?.map((item) => {
+            return (
+              <SelectItem key={item.id} value={item.id}>
+                {item.name}
+              </SelectItem>
+            );
+          })}
       </SelectContent>
     </Select>
   );
