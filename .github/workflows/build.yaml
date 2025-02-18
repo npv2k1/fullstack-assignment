@@ -19,6 +19,7 @@ jobs:
     name: Build and Push Docker image
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         project: [frontend, backend]
     defaults:
