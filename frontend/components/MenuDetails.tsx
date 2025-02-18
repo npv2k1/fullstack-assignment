@@ -31,7 +31,7 @@ export function MenuDetails() {
   const [name, setName] = useState("");
 
   const { mutateAsync: doCreate } = useCreateMenu();
-  const { mutateAsync: doUpate } = useUpdateMenu(selectedMenuItem?.id);
+  const { mutateAsync: doUpate } = useUpdateMenu(selectedMenuItem?.id ?? "");
 
   const handleSave = async () => {
     if (isAdding) {

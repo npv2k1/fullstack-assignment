@@ -6,6 +6,7 @@ export interface MenuItem {
   parentId?: string;
   children?: MenuItem[];
   parent?: MenuItem;
+  depth?: number;
 }
 
 export interface CreateMenuDto {
